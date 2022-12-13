@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjord+One&display=swap');
+
+.titreh1 {
+    font-size: 5vw;
+    font-family: 'Fjord One', serif;
+    font-weight: bold;
+    color: #d8ab04;
+    text-align: center;
+    letter-spacing: 0.1em;
+    margin: 0;
+    padding: 0;
+}
+.titreh2 {
+  font-size: 1.2em;
+  font-family: 'Fjord One', serif;
+  font-weight: bold;
+  color: #d8ab04;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.headercolor {
+  display: inline-block;
+  background-color: #1f2cad; 
+}
+
+nav {
+  display: inline-block;
+  text-align: center;
+  background-color: #1f2cad;
+  padding: 0;
+  margin: 0;
+}
