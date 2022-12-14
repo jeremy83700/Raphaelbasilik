@@ -86,15 +86,13 @@ p, li {
 
 .block {
   display: inline-block;
-  width: auto;
-  min-height: 60vh;
-  max-height: auto;
   border-radius: 1em 1em;
   background-color: hsla(235, 82%, 68%, 0.8);
   color: #FFF;
   cursor: pointer;
   text-align: center;
   font-family: "Fjord One", serif;
-  padding: 3em;
-  margin:3em;
+  padding: 5em;
+  margin: 1.5em;
+  min-width: 500px;
 }
