@@ -21,10 +21,11 @@
   padding: 0;
 }
 
-p, li {
+p,
+li {
   font-family: "Fjord One", serif;
   font-size: 1.5em;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -40,7 +41,7 @@ p, li {
 
 .taillecarousel {
   margin-top: 6vh;
-  width: 100%
+  width: 100%;
 }
 
 .titrebienvenue {
@@ -67,18 +68,18 @@ p, li {
 
 .divbienvenue {
   font-family: "Fjord One", serif;
-  color: #FFF;
+  color: #fff;
   padding: 3em;
   background-color: hsla(235, 82%, 68%, 0.8);
   margin: auto;
   text-align: center;
   border-radius: 1em 1em;
-  margin:3em;
+  margin: 3em;
 }
 
 .divbienvenue2 {
   font-family: "Fjord One", serif;
-  color: #FFF;
+  color: #fff;
   padding: 3em;
   margin: auto;
   text-align: center;
@@ -88,7 +89,7 @@ p, li {
   display: inline-block;
   border-radius: 1em 1em;
   background-color: hsla(235, 82%, 68%, 0.8);
-  color: #FFF;
+  color: #fff;
   cursor: pointer;
   text-align: center;
   font-family: "Fjord One", serif;
