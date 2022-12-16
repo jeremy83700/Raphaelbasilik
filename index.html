@@ -387,7 +387,7 @@
                   class="accordion-collapse collapse"
                   aria-labelledby="panelsStayOpen-headingOne"
                 >
-                  <div class="accordion-body accordeon">
+                  <div class="accordion-body">
                     <p class="accordeon">
                       Nous avons la joie d'accueillir les enfants tous les
                       mercredi de 8h à 18h, hors vacances scolaires et jours
@@ -469,53 +469,50 @@
           </div>
         </div>
       </div>
-
-      <!-- <div class="divbienvenue">
-        <p>
-          Nous avons la joie d'accueillir les enfants tous les mercredi de 8h à
-          18h, hors vacances scolaires et jours fériés. Le centre aéré de la
-          paroisse est animé par les soeurs. De nombreuses activités y sont
-          proposées.
-        </p>
-        <p>
-          Retrouverez tous nos horaires de messe dans la page
-          <a href="contact.html">contact</a>.
-        </p>
-      </div> -->
     </main>
 
     <footer>
       <!-- Présentation des prêtres de la paroisses dans le footer avec un bouton pop-up-->
-      <button
-        class="btn btn-primary"
-        type="button"
-        data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasBottom"
-        aria-controls="offcanvasBottom"
-      >
-        Toggle bottom offcanvas
-      </button>
-      <div
-        class="offcanvas offcanvas-bottom"
-        tabindex="-1"
-        id="offcanvasBottom"
-        aria-labelledby="offcanvasBottomLabel"
-      >
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasBottomLabel">
-            Offcanvas bottom
-          </h5>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
+      <div class="container-fluid text-center footerstyle">
+        <div class="row">
+          <div class="col">
+            <button
+              class="buttonstyle"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasBottom"
+              aria-controls="offcanvasBottom"
+            >
+            </button>
+
+            <div
+              class="offcanvas offcanvas-bottom"
+              tabindex="-1"
+              id="offcanvasBottom"
+              aria-labelledby="offcanvasBottomLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasBottomLabel">
+                  Offcanvas bottom
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body small">...</div>
+            </div>
+          </div>
         </div>
-        <div class="offcanvas-body small">...</div>
+        <div class="row">
+          <div class="col">
+            <a href="contact.html">Nous contacter</a>
+            <p>© 2022 - Tous droits réservés</p>
+          </div>
+        </div>
       </div>
-      <a href="contact.html">Nous contacter</a>
-      <p>© 2022 - Tous droits réservés</p>
     </footer>
     <script src="bootstrap.min.js"></script>
   </body>

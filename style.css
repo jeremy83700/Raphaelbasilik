@@ -40,7 +40,7 @@ li {
 }
 
 .taillecarousel {
-  margin-top: 6vh;
+  margin-top: 6em;
   width: 100%;
 }
 
@@ -117,4 +117,79 @@ li {
   margin: 0.6em;
   padding: 0;
   text-align: center;
+}
+
+.footerstyle {
+  font-family: "Fjord One", serif;
+  background-color: #FAD85F;
+  text-align: center;
+  margin-top: 3em;
+  padding: 3em;
+  text-align: center;
+}
+
+.buttonstyle {
+  text-decoration: none;
+  border: none;
+  color: #ffe27a;
+  padding: 2em 10em;
+  font-size: 1.2em;
+  font-family: "Fjord One", serif;
+  letter-spacing: 0.1em;
+  transition: all 0.5s;
+  position: relative;
+  border-radius: 2em 2em;
+  background-color: #FAD85F;
+}
+
+.buttonstyle:before {
+  content: "Les prêtres de la paroisse";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffe27a;
+  background-color:  hsla(235, 82%, 68%, 0.8);
+  font-weight: 600;
+  font-size: 1.2em;
+  top: 0;
+  left: 100%;
+  font-family: "Fjord One", serif;
+  letter-spacing: 0.1em;
+  transition: all 1s;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform: scale(0) rotatey(0);
+  opacity: 0;
+  border-radius: 1em 1em;
+}
+.buttonstyle:hover:before {
+  transform: scale(1) rotatey(360deg);
+  left: 0;
+  opacity: 1;
+}
+.buttonstyle:after {
+  content: "Découvrir les prêtres";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffe27a;
+  background-color:  hsla(235, 82%, 68%, 0.8);
+  font-size: 1.2em;
+  top: 0;
+  left: 0;
+  font-family: "Fjord One", serif;
+  letter-spacing: 0.1em;
+  transition: all 1s;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform: scale(1) rotatey(0);
+  opacity: 1;
+  border-radius: 1em 1em;
+}
+.buttonstyle:hover:after {
+  transform: scale(0) rotatey(360deg);
+  left: -100%;
+  opacity: 0;
 }
