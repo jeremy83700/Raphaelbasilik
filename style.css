@@ -121,7 +121,7 @@ li {
 
 .footerstyle {
   font-family: "Fjord One", serif;
-  background-color: #FAD85F;
+  background-color: #fad85f;
   text-align: center;
   margin-top: 3em;
   padding: 3em;
@@ -139,7 +139,7 @@ li {
   transition: all 0.5s;
   position: relative;
   border-radius: 2em 2em;
-  background-color: #FAD85F;
+  background-color: #fad85f;
 }
 
 .buttonstyle:before {
@@ -148,8 +148,8 @@ li {
   justify-content: center;
   align-items: center;
   color: #ffe27a;
-  background-color:  hsla(235, 82%, 68%, 0.8);
-  font-weight: 600;
+  background-color: hsla(235, 82%, 68%, 0.8);
+  font-weight: 500;
   font-size: 1.2em;
   top: 0;
   left: 100%;
@@ -174,7 +174,7 @@ li {
   justify-content: center;
   align-items: center;
   color: #ffe27a;
-  background-color:  hsla(235, 82%, 68%, 0.8);
+  background-color: hsla(235, 82%, 68%, 0.8);
   font-size: 1.2em;
   top: 0;
   left: 0;
@@ -192,4 +192,54 @@ li {
   transform: scale(0) rotatey(360deg);
   left: -100%;
   opacity: 0;
+}
+.discret {
+  font-family: "Fjord One", serif;
+  font-size: 1em;
+  color:  hsla(235, 82%, 68%, 0.8);
+  text-align: center;
+  margin-top: 3.5em;
+  margin-bottom: Oem;
+  padding: 0;
+}
+.headercanvas {
+  font-family: "Fjord One", serif;
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+  margin: 0.3em;
+  padding: 0;
+  color: hsla(235, 82%, 68%, 0.8);
+}
+
+.bodycanvas {
+  font-family: "Fjord One", serif;
+  font-size: 1em;
+  color:  #fad85f;
+  background-color: hsla(235, 82%, 68%, 0.8);
+  text-align: center;
+  margin-top: 3.5em;
+  margin-bottom: Oem;
+  padding: 0;
+}
+
+.photoscure {
+  width: 10em;
+  height: 11em;
+  object-position: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: auto;
+  padding-right: auto;
+  border-radius: 1em;
+}
+
+.titrecure {
+  font-size: 1.1em;
+  font-family: "Fjord One", serif;
+  font-weight: 500;
+  color: #ffe27a;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin: 1em;
+  padding: 0;
 }

@@ -250,8 +250,8 @@
       <div class="justify-content-start divbienvenue2 d-block d-sm-none">
         <div>
           <iframe
-            width="300px"
-            height="180px"
+            width="380"
+            height="230px"
             src="https://www.youtube.com/embed/2lmawuwEwk4"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -317,7 +317,7 @@
               Dominique Rey) procède au couronnement de la statue de Notre-Dame.
             </p>
           </div>
-          <div class="col block">
+          <div class="col block shadow p-3 mb-5 bg-body rounded">
             <h3 class="titrehistoire">De nos jours...</h3>
             <image
               src="images/Statue-nd-saint-raphel.webp"
@@ -350,7 +350,8 @@
         <h2 class="titrebienvenue">Découvrir nos activités</h2>
       </div>
 
-      <!-- Section en 2 colonnes avec un lottiefile et une partie accordeon-->
+      <!-- Section en 2 colonnes avec un lottiefile et une partie accordeon, le lottiefile 
+        fonctionne correctement avec liveserver, vérifier et tester-->
       <div class="container text-center">
         <div class="row">
           <div class="col-lg-4" id="animation container">
@@ -441,9 +442,7 @@
                     aria-expanded="false"
                     aria-controls="panelsStayOpen-collapseThree"
                   >
-                    <p class="titreaccordeon">
-                      Pélerinage des jeunes à Lourdes
-                    </p>
+                    <p class="titreaccordeon">Pélerinage à Lourdes</p>
                   </button>
                 </h2>
                 <div
@@ -482,19 +481,21 @@
               data-bs-toggle="offcanvas"
               data-bs-target="#offcanvasBottom"
               aria-controls="offcanvasBottom"
-            >
-            </button>
-
+            ></button>
+            <!--Texte du bouton non rempli car rempli avec la class buttonstyle dans style.css-->
             <div
-              class="offcanvas offcanvas-bottom"
+              class="offcanvas offcanvas-bottom headercanvas"
               tabindex="-1"
               id="offcanvasBottom"
               aria-labelledby="offcanvasBottomLabel"
             >
-              <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasBottomLabel">
-                  Offcanvas bottom
-                </h5>
+              <div class="offcanvas-header" style="background-color: #ffe27a">
+                <h3
+                  class="offcanvas-title headercanvas"
+                  id="offcanvasBottomLabel"
+                >
+                  Nos Prêtres
+                </h3>
                 <button
                   type="button"
                   class="btn-close"
@@ -502,14 +503,57 @@
                   aria-label="Close"
                 ></button>
               </div>
-              <div class="offcanvas-body small">...</div>
+              <div
+                class="offcanvas-body small"
+                style="background-color: hsla(235, 82%, 68%, 0.8)"
+              >
+                <div class="container-fluid text-center">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <h3 class="titrecure">Don Marc Antoine</h3>
+                      <image
+                        src="images/Don-Marc-Antoine.webp"
+                        alt="Don-Marc-Antoine"
+                        class="photoscure"
+                      >
+                      </image>
+                    </div>
+                    <div class="col-md-3">
+                      <h3 class="titrecure">Don Louis-Marie</h3>
+                      <image
+                        src="images/Don-louis.webp"
+                        alt="Don-Marc-Antoine"
+                        class="photoscure"
+                      >
+                      </image>
+                    </div>
+                    <div class="col-md-3">
+                      <h3 class="titrecure">Don Bruno</h3>
+                      <image
+                        src="images/Don-Bruno.webp"
+                        alt="Don-Marc-Antoine"
+                        class="photoscure"
+                      >
+                      </image>
+                    </div>
+                    <div class="col-md-3">
+                      <h3 class="titrecure">Don Laurent</h3>
+                      <image
+                        src="images/Don-Laurent.webp"
+                        alt="Don-Marc-Antoine"
+                        class="photoscure"
+                      >
+                      </image>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <a href="contact.html">Nous contacter</a>
-            <p>© 2022 - Tous droits réservés</p>
+            <p class="discret">© 2022 - Tous droits réservés</p>
           </div>
         </div>
       </div>
