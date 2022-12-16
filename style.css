@@ -242,3 +242,15 @@ li {
   margin: 1em;
   padding: 0;
 }
+
+.headertitrecontact {
+  font-size: 2em;
+  font-family: "Fjord One", serif;
+  font-weight: bold;
+  color: #d8ab04;
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin-top: 4em;
+  margin-bottom: 1em;
+  padding: 0;
+}
