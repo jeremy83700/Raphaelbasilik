@@ -265,7 +265,7 @@ li {
 }
 
 .divvideo2 {
-  margin-top: 12em;
+  margin-top: 20em;
   margin-bottom: 0em;
   margin-left: auto;
   margin-right: auto;
@@ -315,5 +315,14 @@ li {
   margin-bottom: 1em;
   margin-left: 0em;
   margin-right: 0em;
-  padding: 2em;
+  padding: 1em;
+}
+
+.textbox {
+  font-family: "Fjord One", serif;
+  font-size: 1.5em;
+  color: #fff;
+  text-align: center;
+  margin: 2em;
+  padding: 0;
 }
