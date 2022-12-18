@@ -84,20 +84,79 @@
         </nav>
       </div>
     </header>
-    <!-- debut carousel-->
+    <!-- debut video de fond-->
     <main>
-      <div class="container-fluid">
-        <div>
-          
+      <div class="divvideo">
+        <div class="d-block d-xxl-none">
+          <div class="container-video">
+            <div class="row">
+              <div class="col">
+                <video
+                  muted
+                  autoplay
+                  loop
+                  class="video"
+                  auto
+                  width="100%"
+                  preload="auto"
+                  controls
+                >
+                  <source
+                    src="/Video/Notre dame saint raphael.mp4"
+                    type="video/mp4"
+                  />
+                  <p>
+                    Votre navigateur ne prend pas en charge les vidéos HTML5.
+                    Voici
+                    <a href="/Video/Notre dame saint raphael.mp4"
+                      >un lien pour télécharger la vidéo</a
+                    >.
+                  </p>
+                </video>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div>
+      <!-- Adaptation grande taille video-->
+      <div class="divvideo2">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="d-none d-xxl-block">
+                <video
+                  muted
+                  autoplay
+                  loop
+                  class="video"
+                  auto
+                  preload="auto"
+                  controls
+                >
+                  <source
+                    src="/Video/Notre dame saint raphael.mp4"
+                    type="video/mp4"
+                  />
+                  <p>
+                    Votre navigateur ne prend pas en charge les vidéos HTML5.
+                    Voici
+                    <a href="/Video/Notre dame saint raphael.mp4"
+                      >un lien pour télécharger la vidéo</a
+                    >.
+                  </p>
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-none d-xxl-block">
         <h1 class="headertitrecontact">
-        Vos différents lieux de cultes proche de chez vous
+          Vos différents lieux de cultes proche de chez vous
         </h1>
       </div>
-      
-            <!--
+
+      <!--
           <p>Vos différents lieux de cultes</p>
           <ul>
         <li>Basilique notre dame de la victoire</li>
@@ -167,98 +226,8 @@
         <li>11:00 : Notre-Dame de la Paix</li>
         <li>18:30 : Notre-Dame de la Victoire</li>
       </ul>-->
-          </div>
-        </div>
-      </div>
     </main>
-    <footer>
-      <!-- Présentation des prêtres de la paroisses dans le footer avec un bouton pop-up-->
-      <div class="container-fluid text-center footerstyle">
-        <div class="row">
-          <div class="col">
-            <button
-              class="buttonstyle"
-              type="button"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasBottom"
-              aria-controls="offcanvasBottom"
-            ></button>
-            <!--Texte du bouton non rempli car rempli avec la class buttonstyle dans style.css-->
-            <div
-              class="offcanvas offcanvas-bottom headercanvas"
-              tabindex="-1"
-              id="offcanvasBottom"
-              aria-labelledby="offcanvasBottomLabel"
-            >
-              <div class="offcanvas-header" style="background-color: #ffe27a">
-                <h3
-                  class="offcanvas-title headercanvas"
-                  id="offcanvasBottomLabel"
-                >
-                  Nos Prêtres
-                </h3>
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="offcanvas"
-                  aria-label="Close"
-                ></button>
-              </div>
-              <div
-                class="offcanvas-body small"
-                style="background-color: hsla(235, 82%, 68%, 0.8)"
-              >
-                <div class="container-fluid text-center">
-                  <div class="row">
-                    <div class="col-md-3">
-                      <h3 class="titrecure">Don Marc Antoine</h3>
-                      <image
-                        src="images/Don-Marc-Antoine.webp"
-                        alt="Don-Marc-Antoine"
-                        class="photoscure"
-                      >
-                      </image>
-                    </div>
-                    <div class="col-md-3">
-                      <h3 class="titrecure">Don Louis-Marie</h3>
-                      <image
-                        src="images/Don-louis.webp"
-                        alt="Don-Marc-Antoine"
-                        class="photoscure"
-                      >
-                      </image>
-                    </div>
-                    <div class="col-md-3">
-                      <h3 class="titrecure">Don Bruno</h3>
-                      <image
-                        src="images/Don-Bruno.webp"
-                        alt="Don-Marc-Antoine"
-                        class="photoscure"
-                      >
-                      </image>
-                    </div>
-                    <div class="col-md-3">
-                      <h3 class="titrecure">Don Laurent</h3>
-                      <image
-                        src="images/Don-Laurent.webp"
-                        alt="Don-Marc-Antoine"
-                        class="photoscure"
-                      >
-                      </image>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <p class="discret">© 2022 - Tous droits réservés</p>
-          </div>
-        </div>
-      </div>
-    </footer>
+
     <script src="bootstrap.min.js"></script>
   </body>
 </html>

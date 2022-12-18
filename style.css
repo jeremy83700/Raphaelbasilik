@@ -250,7 +250,23 @@ li {
   color: #d8ab04;
   text-align: center;
   letter-spacing: 0.1em;
-  margin-top: 4em;
+  margin-top: 1em;
   margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
   padding: 0;
+}
+
+.divvideo {
+  margin-top: 6em;
+  margin-right: 0em;
+  margin-left: 0em;
+}
+
+.divvideo2 {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3em;
 }
