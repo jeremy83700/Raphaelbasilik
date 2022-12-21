@@ -14,6 +14,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="locomotive-scroll.min.js"></script>
+    <script>
+      (function () {
+        var scroll = new LocomotiveScroll();
+      })();
+    </script>
   </head>
   <body>
     <header>
@@ -210,8 +216,8 @@
         </div>
       </div>
       <!-- Mot de bienvenue sur le site-->
-      <div>
-        <h1 class="titrebienvenue">
+      <div data-scroll>
+        <h1 data-scroll class="titrebienvenue">
           Bienvenue sur le site des paroisses de Saint-Raphaël
         </h1>
       </div>

@@ -195,7 +195,7 @@ li {
 .discret {
   font-family: "Fjord One", serif;
   font-size: 1em;
-  color:  hsla(235, 82%, 68%, 0.8);
+  color: hsla(235, 82%, 68%, 0.8);
   text-align: center;
   margin-top: 3.5em;
   margin-bottom: Oem;
@@ -213,7 +213,7 @@ li {
 .bodycanvas {
   font-family: "Fjord One", serif;
   font-size: 1em;
-  color:  #fad85f;
+  color: #fad85f;
   background-color: hsla(235, 82%, 68%, 0.8);
   text-align: center;
   margin-top: 3.5em;
@@ -333,7 +333,7 @@ li {
 
 .container2 {
   /* hide fixed overflow contents */
-  clip: rect(0, auto, auto, 0);*/
+  clip: rect(0, auto, auto, 0);
 
   /* does not work if overflow = visible */
   overflow: hidden;
@@ -345,29 +345,28 @@ li {
   height: 100vh;
   left: 0;
   width: 100%;
-  
-  
+
   /* safari hack */
-  -webkit-mask-image: -webkit-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+  -webkit-mask-image: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
 }
 
 .container_solid {
   background: hsla(235, 82%, 68%, 0.8);
-  
+
   /* position this container at the top of its parent element */
   top: 0;
 }
 
 .title_wrapper {
   position: fixed;
-  display: block;  
+  display: block;
   margin: auto;
   width: 100%;
   /* center the text wrapper vertically */
   top: 50%;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .title_wrapper {
@@ -382,12 +381,12 @@ li {
 .container_image {
   /* Grab a free image from unsplash */
   background-image: url(images/basilik_interieure2.webp);
-  background-size:100vw auto;
+  background-size: 100vw auto;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-  
+
   /* position the second container below the first container */
   top: 100vh;
 }
