@@ -14,6 +14,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="https://kit.fontawesome.com/bdd89edb33.js"></script>
   </head>
   <body>
     <header>
@@ -152,7 +153,7 @@
       </div>
       <!--Box sous la video, présentation de la basilique principale-->
       <div>
-        <h1 class="headertitrecontact">
+        <h1 class="headertitrecontact" id="NDV">
           Vos différents lieux de culte proche de chez vous à Saint-Raphaël
         </h1>
       </div>
@@ -190,10 +191,10 @@
                     centre de la ville de Saint-Raphaël.
                   </p>
                   <p class="textbox">
-                    Boulevard Félix Martin 83700 Saint-Raphaël
-                    <a class="textbox" href="tel:+33494198129"
-                      >O4 94 19 81 29</a
-                    >
+                    Boulevard Félix Martin 83700 Saint-Raphaël<br />
+                  </p>
+                  <p class="textbox">
+                    <a href="tel:+33494198129">O4 94 19 81 29</a>
                   </p>
                 </div>
               </div>
@@ -226,42 +227,36 @@
       </div>
       <!--Box secondaire en 2 fois 3 div sur 2 lignes et 3 colonnes-->
       <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div
-              class="container position-relative top-50 start-50 translate-middle ajustementbox"
-            >
-              <div class="row">
-                <div class="col">
-                  <div class="basilik" style="margin: 1em; padding: 2em">
-                    <h3 class="titreh2" style="margin: 1em">
-                      Eglise Sainte Bernadette
-                    </h3>
-                    <image
-                      src="images/Sainte bernadette.webp"
-                      alt="Eglise Sainte Bernadette"
-                      class="img-fluid"
-                      width="100%"
-                      height="100%"
-                      style="border-radius: 2em 2em"
-                    />
-                    <p style="margin: 1em">
-                      945, avenue de Valescure <br />
-                      83700 Saint-Raphaël
-                    </p>
-                    <div class="container iframeresponsiv">
-                      <div class="row">
-                        <div class="col">
-                          <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11589.201463815501!2d6.7731983!3d43.4334424!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaac71db326d9211f!2sParoisse%20Sainte%20Bernadette!5e0!3m2!1sfr!2sfr!4v1671454072548!5m2!1sfr!2sfr"
-                            width="500"
-                            height="500"
-                            style="border: 0"
-                            allowfullscreen=""
-                            loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"
-                          ></iframe>
-                        </div>
+        <div class="row" id="STEB">
+          <div class="col-md-4 container-md">
+            <div class="row">
+              <div class="col">
+                <div class="basilik">
+                  <h3 class="titreh2">Eglise Sainte Bernadette</h3>
+                  <image
+                    src="images/Sainte bernadette.webp"
+                    alt="Eglise Sainte Bernadette"
+                    class="img-fluid"
+                    width="100%"
+                    height="100%"
+                    style="border-radius: 2em 2em"
+                  />
+                  <p style="margin: 1em">
+                    945, avenue de Valescure <br />
+                    83700 Saint-Raphaël
+                  </p>
+                  <div class="container iframeresponsiv">
+                    <div class="row">
+                      <div class="col">
+                        <iframe
+                          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11589.201463815501!2d6.7731983!3d43.4334424!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaac71db326d9211f!2sParoisse%20Sainte%20Bernadette!5e0!3m2!1sfr!2sfr!4v1671454072548!5m2!1sfr!2sfr"
+                          width="500"
+                          height="500"
+                          style="border: 0"
+                          allowfullscreen=""
+                          loading="lazy"
+                          referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
                       </div>
                     </div>
                   </div>
@@ -269,41 +264,35 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div
-              class="container position-relative top-50 start-50 translate-middle ajustementbox"
-            >
-              <div class="row">
-                <div class="col">
-                  <div class="basilik" style="margin: 1em; padding: 2em">
-                    <h3 class="titreh2" style="margin: 1em">
-                      Notre-Dame de la Paix
-                    </h3>
-                    <image
-                      src="images/notre dame de la paix.webp"
-                      alt="Notre Dame de la Paix"
-                      class="img-fluid"
-                      width="100%"
-                      height="100%"
-                      style="border-radius: 2em 2em"
-                    />
-                    <p style="margin: 1em">
-                      159 Bd Alphonse Juin Maréchal de France<br />
-                      83700 Saint-Raphaël
-                    </p>
-                    <div class="container iframeresponsiv">
-                      <div class="row">
-                        <div class="col">
-                          <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11591.959167760553!2d6.7867521!3d43.41904!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfb91258dac4f81c6!2s%C3%89glise%20Notre-Dame%20de%20la%20Paix%20de%20Saint-Rapha%C3%ABl!5e0!3m2!1sfr!2sfr!4v1671454503519!5m2!1sfr!2sfr"
-                            width="500"
-                            height="500"
-                            style="border: 0"
-                            allowfullscreen=""
-                            loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"
-                          ></iframe>
-                        </div>
+          <div class="col-md-4 container-md" id="NDLP">
+            <div class="row">
+              <div class="col">
+                <div class="basilik">
+                  <h3 class="titreh2">Notre-Dame de la Paix</h3>
+                  <image
+                    src="images/notre dame de la paix.webp"
+                    alt="Notre Dame de la Paix"
+                    class="img-fluid"
+                    width="100%"
+                    height="100%"
+                    style="border-radius: 2em 2em"
+                  />
+                  <p style="margin: 1em">
+                    159 Bd Alphonse Juin Maréchal de France<br />
+                    83700 Saint-Raphaël
+                  </p>
+                  <div class="container iframeresponsiv">
+                    <div class="row">
+                      <div class="col">
+                        <iframe
+                          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11591.959167760553!2d6.7867521!3d43.41904!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfb91258dac4f81c6!2s%C3%89glise%20Notre-Dame%20de%20la%20Paix%20de%20Saint-Rapha%C3%ABl!5e0!3m2!1sfr!2sfr!4v1671454503519!5m2!1sfr!2sfr"
+                          width="500"
+                          height="500"
+                          style="border: 0"
+                          allowfullscreen=""
+                          loading="lazy"
+                          referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
                       </div>
                     </div>
                   </div>
@@ -311,41 +300,35 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div
-              class="container position-relative top-50 start-50 translate-middle ajustementbox"
-            >
-              <div class="row">
-                <div class="col">
-                  <div class="basilik" style="margin: 1em; padding: 2em">
-                    <h3 class="titreh2" style="margin: 1em">
-                      Notre-Dame du Sacré Coeur
-                    </h3>
-                    <image
-                      src="images/Notre Dame Sacré coeur Agay.webp"
-                      alt="Notre-Dame du Sacré coeur"
-                      class="img-fluid"
-                      width="100%"
-                      height="100%"
-                      style="border-radius: 2em 2em"
-                    />
-                    <p style="margin: 1em">
-                      297 Bd de la Plage<br />
-                      83700 Saint-Raphaël
-                    </p>
-                    <div class="container iframeresponsiv">
-                      <div class="row">
-                        <div class="col">
-                          <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11589.844465064969!2d6.8560159!3d43.4300846!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x97ea3598e8267c1a!2sNotre%20Dame%20du%20Sacr%C3%A9%20Coeur!5e0!3m2!1sfr!2sfr!4v1671454689380!5m2!1sfr!2sfr"
-                            width="500"
-                            height="500"
-                            style="border: 0"
-                            allowfullscreen=""
-                            loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"
-                          ></iframe>
-                        </div>
+          <div class="col-md-4 container-md">
+            <div class="row" id="NDSC">
+              <div class="col">
+                <div class="basilik">
+                  <h3 class="titreh2">Notre-Dame du Sacré Coeur</h3>
+                  <image
+                    src="images/Notre Dame Sacré coeur Agay.webp"
+                    alt="Notre-Dame du Sacré coeur"
+                    class="img-fluid"
+                    width="100%"
+                    height="100%"
+                    style="border-radius: 2em 2em"
+                  />
+                  <p style="margin: 1em">
+                    297 Bd de la Plage<br />
+                    83700 Saint-Raphaël
+                  </p>
+                  <div class="container iframeresponsiv">
+                    <div class="row">
+                      <div class="col">
+                        <iframe
+                          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11589.844465064969!2d6.8560159!3d43.4300846!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x97ea3598e8267c1a!2sNotre%20Dame%20du%20Sacr%C3%A9%20Coeur!5e0!3m2!1sfr!2sfr!4v1671454689380!5m2!1sfr!2sfr"
+                          width="500"
+                          height="500"
+                          style="border: 0"
+                          allowfullscreen=""
+                          loading="lazy"
+                          referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
                       </div>
                     </div>
                   </div>
@@ -354,42 +337,36 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div
-              class="container position-relative top-50 start-50 translate-middle ajustementbox"
-            >
-              <div class="row">
-                <div class="col">
-                  <div class="divbienvenue" style="margin: 1em; padding: 2em">
-                    <h3 class="titreh2" style="margin: 1em">
-                      Chapelle Saint-Roch
-                    </h3>
-                    <image
-                      src="images/chapelle saint roch.webp"
-                      alt="Chapelle Saint-Roch"
-                      class="img-fluid"
-                      width="100%"
-                      height="100%"
-                      style="border-radius: 2em 2em"
-                    />
-                    <p style="margin: 1em">
-                      964 Bd de la 36ème division du Texas<br />
-                      83700 Saint-Raphaël
-                    </p>
-                    <div class="container iframeresponsiv">
-                      <div class="row">
-                        <div class="col">
-                          <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11592.194667585914!2d6.8467596!3d43.4178099!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7365ac24feecdeb2!2sChapelle%20Saint-Roch!5e0!3m2!1sfr!2sfr!4v1671454858658!5m2!1sfr!2sfr"
-                            width="500"
-                            height="500"
-                            style="border: 0"
-                            allowfullscreen=""
-                            loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"
-                          ></iframe>
-                        </div>
+        <div class="row" id="CDD">
+          <div class="col-md-4 container-md">
+            <div class="row">
+              <div class="col">
+                <div class="basilik">
+                  <h3 class="titreh2">Chapelle Saint-Roch</h3>
+                  <image
+                    src="images/chapelle saint roch.webp"
+                    alt="Chapelle Saint-Roch"
+                    class="img-fluid"
+                    width="100%"
+                    height="100%"
+                    style="border-radius: 2em 2em"
+                  />
+                  <p style="margin: 1em">
+                    964 Bd de la 36ème division du Texas<br />
+                    83700 Saint-Raphaël
+                  </p>
+                  <div class="container iframeresponsiv">
+                    <div class="row">
+                      <div class="col">
+                        <iframe
+                          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11592.194667585914!2d6.8467596!3d43.4178099!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7365ac24feecdeb2!2sChapelle%20Saint-Roch!5e0!3m2!1sfr!2sfr!4v1671454858658!5m2!1sfr!2sfr"
+                          width="500"
+                          height="500"
+                          style="border: 0"
+                          allowfullscreen=""
+                          loading="lazy"
+                          referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
                       </div>
                     </div>
                   </div>
@@ -397,41 +374,35 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div
-              class="container position-relative top-50 start-50 translate-middle ajustementbox"
-            >
-              <div class="row">
-                <div class="col">
-                  <div class="divbienvenue" style="margin: 1em; padding: 2em">
-                    <h3 class="titreh2" style="margin: 1em">
-                      Sacré-Coeur de Boulouris
-                    </h3>
-                    <image
-                      src="images/Sacré coeur boulouris.webp"
-                      alt="Sacré-Coeur de Boulouris"
-                      class="img-fluid"
-                      width="100%"
-                      height="100%"
-                      style="border-radius: 2em 2em"
-                    />
-                    <p style="margin: 1em">
-                      152 Charles Goujon <br />
-                      83700 Saint-Raphaël
-                    </p>
-                    <div class="container iframeresponsiv">
-                      <div class="row">
-                        <div class="col">
-                          <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11592.337523261735!2d6.8069731!3d43.4170637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfd9c036791e3f847!2sSacr%C3%A9%20Coeur!5e0!3m2!1sfr!2sfr!4v1671454987455!5m2!1sfr!2sfr"
-                            width="500"
-                            height="500"
-                            style="border: 0"
-                            allowfullscreen=""
-                            loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"
-                          ></iframe>
-                        </div>
+          <div class="col-md-4 container-md" id="SCB">
+            <div class="row">
+              <div class="col">
+                <div class="basilik">
+                  <h3 class="titreh2">Sacré-Coeur de Boulouris</h3>
+                  <image
+                    src="images/Sacré coeur boulouris.webp"
+                    alt="Sacré-Coeur de Boulouris"
+                    class="img-fluid"
+                    width="100%"
+                    height="100%"
+                    style="border-radius: 2em 2em"
+                  />
+                  <p style="margin: 1em">
+                    152 Charles Goujon <br />
+                    83700 Saint-Raphaël
+                  </p>
+                  <div class="container iframeresponsiv">
+                    <div class="row">
+                      <div class="col">
+                        <iframe
+                          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11592.337523261735!2d6.8069731!3d43.4170637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfd9c036791e3f847!2sSacr%C3%A9%20Coeur!5e0!3m2!1sfr!2sfr!4v1671454987455!5m2!1sfr!2sfr"
+                          width="500"
+                          height="500"
+                          style="border: 0"
+                          allowfullscreen=""
+                          loading="lazy"
+                          referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
                       </div>
                     </div>
                   </div>
@@ -439,41 +410,35 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
-            <div
-              class="container position-relative top-50 start-50 translate-middle ajustementbox"
-            >
-              <div class="row">
-                <div class="col">
-                  <div class="divbienvenue" style="margin: 1em; padding: 2em">
-                    <h3 class="titreh2" style="margin: 1em">
-                      Chapelle de tous les Saints
-                    </h3>
-                    <image
-                      src="images/Chappelle tous les saints.webp"
-                      alt="Chapelle de tous les Saints"
-                      class="img-fluid"
-                      width="100%"
-                      height="100%"
-                      style="border-radius: 2em 2em"
-                    />
-                    <p style="margin: 1em">
-                      Avenue des Myrtes <br />
-                      83700 Saint-Raphaël
-                    </p>
-                    <div class="container iframeresponsiv">
-                      <div class="row">
-                        <div class="col">
-                          <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5793.443230006171!2d6.7745205!3d43.4455298!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4324fa4e09028afe!2sChapelle%20de%20Tous%20les%20Saints!5e0!3m2!1sfr!2sfr!4v1671455089840!5m2!1sfr!2sfr"
-                            width="500"
-                            height="500"
-                            style="border: 0"
-                            allowfullscreen=""
-                            loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"
-                          ></iframe>
-                        </div>
+          <div class="col-md-4 container-md" id="CTLS">
+            <div class="row">
+              <div class="col">
+                <div class="basilik">
+                  <h3 class="titreh2">Chapelle de tous les Saints</h3>
+                  <image
+                    src="images/Chappelle tous les saints.webp"
+                    alt="Chapelle de tous les Saints"
+                    class="img-fluid"
+                    width="100%"
+                    height="100%"
+                    style="border-radius: 2em 2em"
+                  />
+                  <p style="margin: 1em">
+                    Avenue des Myrtes <br />
+                    83700 Saint-Raphaël
+                  </p>
+                  <div class="container iframeresponsiv">
+                    <div class="row">
+                      <div class="col">
+                        <iframe
+                          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5793.443230006171!2d6.7745205!3d43.4455298!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4324fa4e09028afe!2sChapelle%20de%20Tous%20les%20Saints!5e0!3m2!1sfr!2sfr!4v1671455089840!5m2!1sfr!2sfr"
+                          width="500"
+                          height="500"
+                          style="border: 0"
+                          allowfullscreen=""
+                          loading="lazy"
+                          referrerpolicy="no-referrer-when-downgrade"
+                        ></iframe>
                       </div>
                     </div>
                   </div>
@@ -484,60 +449,21 @@
         </div>
       </div>
 
-      <!--
+      <!-- Block spéciale pour les horaires en petite taille-->
 
-      <h2>Nos horraires de Messes</h2>
+      <div
+        class="container basilik d-none d-md-block d-sm-block d-xxl d-lg-none"
+      >
+        <div class="row">
+          <div class="col">
+            <h2 class="titreh2">Nos horaires</h2>
+          </div>
+        </div>
+      </div>
 
-      <h3>messes en semaine</h3>
-      <p>Lundi</p>
-      <ul>
-        <li>18:00 : Notre-Dame de la Victoire</li>
-      </ul>
-      <p>Mardi</p>
-      <ul>
-        <li>08:00 : Notre-Dame de la Victoire</li>
-        <li>18:00 : Chapelle du Dramont</li>
-        <li>18:00 : Sainte-Bernadette</li>
-      </ul>
-      <p>Mercredi</p>
-      <ul>
-        <li>08:00 : Notre-Dame de la Victoire</li>
-        <li>09:00 : Agay</li>
-        <li>11:15 : Sainte-Bernadette</li>
-        <li>18:00 : Notre-Dame de la Paix</li>
-      </ul>
-      <p>Jeudi</p>
-      <ul>
-        <li>08:00 : Notre-Dame de la Victoire</li>
-        <li>18:00 : Chapelle du Dramont</li>
-        <li>18:00 : Notre-Dame de la Victoire</li>
-      </ul>
-      <p>Vendredi</p>
-      <ul>
-        <li>09:00 : Notre-Dame de la Victoire</li>
-        <li>18:00 : Agay</li>
-        <li>18:00 : Sainte-Bernadette</li>
-      </ul>
-      <h3>messes le week-end</h3>
-      <p>Samedi</p>
-      <ul>
-        <li>08:00 : Notre-Dame de la Victoire</li>
-        <li>09:00 : Agay</li>
-        <li>18:00 : chapelle du Dramont</li>
-        <li>18:30 : Sainte Bernadette</li>
-      </ul>
-      <p>Dimanche</p>
-      <ul>
-        <li>08:30 : Notre-Dame de la Victoire</li>
-        <li>09:30 : Tous les Saints</li>
-        <li>09:30 : Boulouris</li>
-        <li>10:30 : Notre-Dame de la Victoire</li>
-        <li>11:00 : Sainte-Bernadette</li>
-        <li>11:00 : Notre-Dame de la Paix</li>
-        <li>18:30 : Notre-Dame de la Victoire</li>
-      </ul>-->
+      <!-- Block spéciale pour les horaires -->
 
-      <div class="container-fluid bck">
+      <div class="container-fluid bck d-none d-lg-block d-xl-block d-xxl-block">
         <!-- First container -->
         <div class="container2 container_solid">
           <div class="title_wrapper">
@@ -551,34 +477,401 @@
             <h1 class="titreh1">Nos horaires</h1>
           </div>
         </div>
-        <section>
-          <h2>Lorem ipsum dolor sit amet.</h2>
-          <p style="color: black;">
-            Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
-          </p>
-          <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-            sed quia non numquam eius modi tempora incidunt ut labore et dolore
-            magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-            nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
-            aliquid ex ea commodi consequatur? Quis autem vel eum iure
-            reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-            consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
-            pariatur?
-          </p>
-        </section>
+
+        <!-- Mise en place de l'accordeon des horaires avec titre -->
+        <div>
+          <div class="container basilik">
+            <div class="row">
+              <div class="col">
+                <h2 class="titreh2">Nos Messes</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container basilik">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne"
+              >
+                <p class="titreaccordeon">Lundi</p>
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingOne"
+            >
+              <div class="accordion-body">
+                <ul class="accordeon" style="list-style-type: none">
+                  <li class="accordeon">
+                    <a href="#NDV" class="lien">
+                      <strong>18h00</strong> Notre Dame de la Victoire</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseTwo"
+              >
+                <p class="titreaccordeon">Mardi</p>
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingTwo"
+            >
+              <div class="accordion-body">
+                <ul class="accordeon" style="list-style-type: none">
+                  <li class="accordeon">
+                    <a href="#NDV" class="lien">
+                      <strong>7H30</strong> Laudes à Notre-Dame de la Victoire
+                    </a>
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#NDV" class="lien">
+                      <strong>08h00</strong> Notre Dame de la Victoire</a
+                    >
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#CDD" class="lien">
+                      <strong>18h00</strong> Chapelle du Saint Roch</a
+                    >
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#STEB" class="lien">
+                      <strong>18h00</strong> Sainte Bernadette</a
+                    >
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#NDV" class="lien">
+                      <strong>19h10</strong> Vêpres à Notre-Dame de la Victoire
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                <p class="titreaccordeon">Mercredi</p>
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingThree"
+            >
+              <div class="accordion-body">
+                <ul class="accordeon" style="list-style-type: none">
+                  <li class="accordeon">
+                    <a href="#NDV" class="lien">
+                      <strong>7H30</strong> Laudes à Notre-Dame de la Victoire
+                    </a>
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#NDV" class="lien">
+                      <strong>08h00</strong> Notre Dame de la Victoire</a
+                    >
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#NDSC" class="lien">
+                      <strong>09h00</strong> Notre Dame du Sacré Coeur à Agay</a
+                    >
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#STEB" class="lien">
+                      <strong>11h15</strong> Sainte Bernadette (sauf vacances
+                      scolaires)</a
+                    >
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#NDLP" class="lien">
+                      <strong>18hOO</strong>Notre Dame de la Paix</a
+                    >
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#NDV" class="lien">
+                      <strong>19h10</strong> Vêpres à Notre-Dame de la Victoire
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFour"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseFour"
+              >
+                <p class="titreaccordeon">Jeudi</p>
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingFour"
+            >
+              <div class="accordion-body">
+                <ul class="accordeon" style="list-style-type: none">
+                  <li class="accordeon">
+                    <a href="#NDV" class="lien">
+                      <strong>7H30</strong> Laudes à Notre-Dame de la Victoire
+                    </a>
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#NDV" class="lien">
+                      <strong>08h00</strong> Notre Dame de la Victoire</a
+                    >
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#CDD" class="lien">
+                      <strong>18h00</strong>Chapelle Saint Roch</a
+                    >
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#NDV" class="lien">
+                      <strong>18h00</strong> Notre Dame de la Victoire</a
+                    >
+                  </li>
+                  <br />
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFive"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseFive"
+              >
+                <p class="titreaccordeon">Vendredi</p>
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingFive"
+            >
+              <div class="accordion-body">
+                <ul class="accordeon" style="list-style-type: none">
+                  <li class="accordeon">
+                    <a href="#NDV" class="lien">
+                      <strong>7H30</strong> Laudes à Notre-Dame de la Victoire
+                    </a>
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#NDV" class="lien">
+                      <strong>09h00</strong> Notre Dame de la Victoire</a
+                    >
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#NDSC" class="lien">
+                      <strong>18h00</strong> Notre Dame du Sacré Coeur à Agay</a
+                    >
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#STEB" class="lien">
+                      <strong>18h00</strong> Sainte Bernadette</a
+                    >
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#NDV" class="lien">
+                      <strong>19h10</strong> Vêpres à Notre-Dame de la Victoire
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseSix"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseSix"
+              >
+                <p class="titreaccordeon">Samedi</p>
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseSix"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingSix"
+            >
+              <div class="accordion-body">
+                <ul class="accordeon" style="list-style-type: none">
+                  <li class="accordeon">
+                    <a href="#NDV" class="lien">
+                      <strong>7H30</strong> Laudes à Notre-Dame de la Victoire
+                    </a>
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#NDV" class="lien">
+                      <strong>08h00</strong> Notre Dame de la Victoire</a
+                    >
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#NDSC" class="lien">
+                      <strong>09h00</strong> Notre Dame du Sacré Coeur à Agay</a
+                    >
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#CDD" class="lien">
+                      <strong>18h00</strong> Chapelle Saint Roch</a
+                    >
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#STEB" class="lien">
+                      <strong>18h30</strong> Sainte Bernadette</a
+                    >
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#NDV" class="lien">
+                      <strong>19h45</strong> 1er Vêpres du Dimanche à Notre-Dame de la Victoire
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingSeven">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseSeven"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseSeven"
+              >
+                <p class="titreaccordeon">Dimanche</p>
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseSeven"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingSeven"
+            >
+              <div class="accordion-body">
+                <ul class="accordeon" style="list-style-type: none">
+                  <li class="accordeon">
+                    <a href="#NDV" class="lien">
+                      <strong>8h00</strong> Laudes à Notre-Dame de la Victoire
+                    </a>
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#NDV" class="lien">
+                      <strong>08h30</strong> Notre Dame de la Victoire</a
+                    >
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#CTLS" class="lien">
+                      <strong>09h30</strong> Chapelle de tous les Saints</a
+                    >
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#SCB" class="lien">
+                      <strong>09h30</strong> Sacré Coeur de Boulouris</a
+                    >
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#NDV" class="lien">
+                      <strong>10h30</strong> Notre-Dame de la Victoire
+                    </a>
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#STEB" class="lien">
+                      <strong>11h00</strong> Sainte Bernadette</a
+                    >
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#NDLP" class="lien">
+                      <strong>11h00</strong>Notre Dame de la Paix</a
+                    >
+                  </li>
+                  <br />
+                  <li class="accordeon">
+                    <a href="#NDV" class="lien">
+                      <strong>17h30</strong> Vêpres suivies du Saint Sacrement à Notre-Dame de la Victoire
+                    </a>
+                  </li>
+                  <br/>
+                  <li class="accordeon">
+                    <a href="#NDV" class="lien">
+                      <strong>18h30</strong> Notre-Dame de la Victoire
+                    </a>
+                  </li>
+                  <br />
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 

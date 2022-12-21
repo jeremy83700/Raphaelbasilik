@@ -277,13 +277,11 @@ li {
   text-align: center;
   border-radius: 1em 1em;
   background-color: hsla(235, 82%, 68%, 0.8);
-  margin-top: 1em;
+  margin-top: 2em;
   margin-bottom: 2em;
   margin-left: 2em;
   margin-right: 2em;
   padding: 2em;
-  width: 100%;
-  height: 100%;
 }
 
 .iframeresponsiv {
@@ -328,8 +326,6 @@ li {
 }
 
 /* Mise en page background sur contact.html */
-
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap');
 
 .bck {
   height: 200vh;
@@ -376,23 +372,11 @@ li {
 
 .title_wrapper {
   text-align: center;
-  font-size: 5em;
+  font-size: 4em;
   text-transform: uppercase;
   text-align: center;
   font-family: "Fjord One", serif;
   font-weight: 600;
-}
-
-.container_solid .title_wrapper {
-  /* the text background */
-  background: url(images/basilik_interieure2.webp);
-  background-size: 100vw auto;
-  background-position: center;
-  background-clip: text;
-  -webkit-background-clip: text;*/
-  
-  /* fallback text color */
-  color: black;
 }
 
 .container_image {
@@ -401,6 +385,8 @@ li {
   background-size:100vw auto;
   background-position: center;
   background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
   
   /* position the second container below the first container */
   top: 100vh;
@@ -423,4 +409,16 @@ section h2 {
 
 section p {
   font-family: "Fjord One", serif;
+}
+
+/* Mise en page accordeon contact.html  background: linear-gradient(to bottom right, #114357 60%, #f29492);*/
+
+.lien {
+  font-family: "Fjord One", serif;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 0.5em;
+  padding: 0;
+  text-decoration: none;
+  color: hsla(235, 82%, 68%, 0.8);
 }
