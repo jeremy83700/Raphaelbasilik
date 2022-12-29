@@ -282,8 +282,8 @@ li {
   margin-left: 2em;
   margin-right: 2em;
   padding: 2em;
-  display: flex;
-  flex-wrap: wrap;
+  /*display: flex;
+  flex-wrap: wrap;*/
 }
 
 .iframeresponsiv {
