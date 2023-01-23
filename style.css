@@ -282,8 +282,6 @@ li {
   margin-left: 2em;
   margin-right: 2em;
   padding: 2em;
-  /*display: flex;
-  flex-wrap: wrap;*/
 }
 
 .iframeresponsiv {
@@ -422,4 +420,26 @@ section p {
   padding: 0;
   text-decoration: none;
   color: hsla(235, 82%, 68%, 0.8);
+}
+
+@media (min-width: 768px) {
+  .liquid-column .elementor-widget-wrap {
+    opacity: 0;
+  }
+
+  .liquid-column:hover .elementor-widget-wrap {
+    transition: opacity 0.4s ease 0.2s;
+    opacity: 1;
+  }
+
+  .liquid-column {
+    height: 500px;
+    overflow: hidden;
+    flex: 1;
+    transition: flex 0.3s ease;
+  }
+
+  .liquid-column:hover {
+    flex: 3;
+  }
 }
